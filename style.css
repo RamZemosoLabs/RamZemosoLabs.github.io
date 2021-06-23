@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(176, 226, 228);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.body-container{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header{
+    background-color: cadetblue;
+}
+.header h1{
+    margin: 0;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: Comic Sans MS;
+}
+.header .folio{
+    text-decoration: none;
+    color: aliceblue;
+}
+div nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    background-color: rgb(49, 64, 65);
+    text-align: center;
+    
+}
+div nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px 5px;
+}
+div nav ul li a{
+    text-decoration: none;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: rgb(171, 195, 216);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div nav ul li a:hover{
+    cursor: pointer;
+}
+.content-container{
+    display: flexbox;
+}
+#home{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    display: flex;
+}
+
+.box1{
+    grid-column: 2 / 4;
+    grid-row:  2;
+    text-align: center;
+    grid-template-rows: 400px 100px;
+    width: 80%;
+}
+.box1 h1{
+    margin: 200px 0px 0 150px;
+    font-size: 8rem;
+    color: rgb(240, 127, 51);
+}
+
+.box2{
+    grid-column: 3 / 4;
+    grid-row: 2;
+    grid-template-rows: 400px 100px;
+}
+
+#aboutme{
+    margin-top: 50px;
+}
+.flex-box{
+    height: 700px;
+    width: 100%;
+    grid-gap: 10px;
+    display: inline;
+}
+#aboutme div h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(240, 127, 51);
+}
+#aboutme .flex-box .aboutme-box1{
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+#aboutme .flex-box .aboutme-box2{
+    grid-column: 2 / 4;
+    grid-row: 3;
+}
+#aboutme .aboutme-box2 p{
+    margin: 40px 140px;
+    font-size: 1.3rem;
+    color: rgb(204, 222, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    border: 10px solid rgb(240, 238, 238);
+    padding: 30px 40px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 30px 5px black;
+}
+
+
+#contactme{
+    margin-top: 50px;    
+}
+#contactme div h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(240, 127, 51);
+}
+
+input[type=text],input[type=email],input[text=text],input[type=button] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-size: 20px;
+    color: black;
+}
+
+input[type=button]{
+    cursor: pointer;
+    background-color: rgb(190, 243, 0);
+    border: 0px;
+    margin-top: 30px;
+}
+input[type=button]:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    border: 0px;
+}
+.box1 form {
+    margin-left: 370px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 20px;
+    border: 10px solid rgb(240, 238, 238);
+}
+.box1 form input {
+    margin-bottom: 30px;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+#mygallery div h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(240, 127, 51);
+}
+.gallery-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 20px;
+  }
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+    
+}
+.grid-item img{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(255, 255, 255, 0.8);
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+
+/*--Footer--*/
+.footer{
+    background-color: rgb(49, 64, 65);
+    text-align: center;
+    color: aliceblue;
+    padding: 12px 0;
+}
+.footer p{
+    font-size: 24px;
+}
+.footer p a{
+    text-decoration: none;
+    color: aliceblue;
+}
