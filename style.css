@@ -82,7 +82,7 @@ div nav ul li a:hover{
 }
 
 #aboutme{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .flex-box{
     height: 700px;
@@ -117,11 +117,12 @@ div nav ul li a:hover{
 }
 
 
-#contactme{
-    margin-top: 50px;    
+#main-container #contactme{
+    margin-top: 0px;  
+    margin-bottom: 40px;  
 }
 #contactme div h1{
-    margin-top: 100px;
+    margin-top: 20px;
     text-align: center;
     font-size: 3rem;
     color: rgb(240, 127, 51);
@@ -155,6 +156,7 @@ input[type=button]:hover{
     padding: 50px;
     border-radius: 20px;
     border: 10px solid rgb(240, 238, 238);
+    margin-bottom: 30px;
 }
 .box1 form input {
     margin-bottom: 30px;
@@ -167,7 +169,7 @@ textarea{
     border-radius: 7px;
 }
 #mygallery div h1{
-    margin-top: 100px;
+    margin-top: 20px;
     text-align: center;
     font-size: 3rem;
     color: rgb(240, 127, 51);
